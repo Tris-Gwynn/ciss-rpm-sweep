@@ -106,7 +106,7 @@ def main():
         for interaction, values in sweeps.items():
             print(f"--- Processing {interaction} ---")
             
-            ops_raw = ["S", "Tm", "T0", "Tp", "R", "Ps", "Ptm", "Pt0", "Ptp"]
+            ops_raw = ["S", "Tp", "T0", "Tm", "R", "Ps", "Ptm", "Pt0", "Ptp"]
             ops_calc = ["T", "F"]
             all_ops = ops_raw + ops_calc
 
