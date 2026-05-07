@@ -1,0 +1,5 @@
+# Ignore all data and result files
+Results/
+Results_Original/
+*.pkl
+__pycache__/
